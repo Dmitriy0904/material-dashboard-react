@@ -109,8 +109,8 @@ function Dashboard() {
               <MDBox mb={3}>
                 <ReportsBarChart
                   color="info"
-                  title="website views"
-                  description="Last Campaign Performance"
+                  title="Portfolio chart №1 by Dmytro"
+                  description="Some cool chart"
                   date="campaign sent 2 days ago"
                   chart={reportsBarChartData}
                 />
@@ -120,10 +120,10 @@ function Dashboard() {
               <MDBox mb={3}>
                 <ReportsLineChart
                   color="success"
-                  title="daily sales"
+                  title="Portfolio Chart №2 by Yu.Invest"
                   description={
                     <>
-                      (<strong>+15%</strong>) increase in today sales.
+                      (<strong>One more cool chart</strong>)
                     </>
                   }
                   date="updated 4 min ago"
@@ -135,8 +135,8 @@ function Dashboard() {
               <MDBox mb={3}>
                 <ReportsLineChart
                   color="dark"
-                  title="completed tasks"
-                  description="Last Campaign Performance"
+                  title="Portfolio Chart №3 Test"
+                  description="Wow! Amazing description!"
                   date="just updated"
                   chart={tasks}
                 />
